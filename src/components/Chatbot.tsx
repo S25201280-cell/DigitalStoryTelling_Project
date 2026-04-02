@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-
 type Message = {
   role: 'user' | 'model';
   text: string;
